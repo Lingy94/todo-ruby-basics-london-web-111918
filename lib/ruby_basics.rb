@@ -6,7 +6,8 @@ def assign_variable(value)
   var = value
 end
 
-def argue
+def argue(argument)
+  return "#{argument}"
 end
 
 def greeting(greeting, name)
@@ -18,7 +19,7 @@ def return_a_value
 end
 
 def last_evaluated_value(lastvalue)
-  puts "#{lastvalue}"
+  last = 
 end
 
 def pizza_party(food = "cheese")
