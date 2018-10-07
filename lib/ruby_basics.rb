@@ -15,12 +15,11 @@ def greeting(greeting, name)
 end
 
 def return_a_value(phrase)
-  x = "#{phrase}"
-  puts x
+  puts "#{phrase}"
 end
 
 def last_evaluated_value(lastvalue)
-  lastvalue = "#{lastvalue}"
+  puts "#{lastvalue}"
 end
 
 def pizza_party(food = "cheese")
