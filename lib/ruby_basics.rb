@@ -6,8 +6,7 @@ def assign_variable(value)
   var = value
 end
 
-def argue(arguement)
-  return "#{arguement}"
+def argue
 end
 
 def greeting(greeting, name)
